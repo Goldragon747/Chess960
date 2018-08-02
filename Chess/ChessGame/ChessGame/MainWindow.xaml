@@ -1,0 +1,58 @@
+﻿<Window x:Class="ChessGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChessGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="475.181" Width="417.918">
+
+    <StackPanel>
+
+        <TextBlock Text="Awesome Chess Game!!" 
+                   TextAlignment="Center"
+                   FontSize="20"
+                   FontWeight="Bold"/>
+
+        <TextBlock Name="deadWhitesView"
+                   TextAlignment="Center"
+                   FontSize="10"/>
+
+        <Grid Name="boardGrid" Margin="10">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+
+        <TextBlock Name="deadBlacksView"
+                   TextAlignment="Center"
+                   FontSize="10"/>
+
+        <TextBlock Name="turnDisplay"
+                   TextAlignment="Center"
+                   FontSize="20"
+                   FontWeight="Bold"/>
+
+    </StackPanel>
+
+</Window>
