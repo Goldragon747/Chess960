@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessGame.Source.Model {
 
-    class BoardSpace {
+    public class BoardSpace {
 
         /// <summary>
         /// Boolean showing if the BoardSpace is occupied by a Piece.

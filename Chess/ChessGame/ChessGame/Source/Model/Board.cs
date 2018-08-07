@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessGame.Source.Model {
 
-    class Board {
+    public class Board {
         private bool chess960;
         /// <summary>
         /// Variable showing size of game. Constant.

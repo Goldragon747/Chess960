@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ChessGame.Source.Model {
 
-     abstract class Piece {
+     abstract public class Piece {
 
         /// <summary>
         /// The Board on which the Piece exists.

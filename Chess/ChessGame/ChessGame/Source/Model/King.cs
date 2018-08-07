@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessGame.Source.Model {
 
-    class King : Piece {
+    public class King : Piece {
 
         public King(Board board, int color) : base(board, color) {
 
